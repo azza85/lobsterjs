@@ -1,5 +1,5 @@
 const { capitalizeFirstLetter } = require("./capitalizeFirstLetter");
-const { combineArrayFilterUnique } = require("./combineArrayFilterUnique");
+const { combineArraysFilterUnique } = require("./combineArraysFilterUnique");
 const { combineIDs } = require("./combineIDs");
 const { daysBetweenDates } = require("./daysBetweenDates");
 const { divisibleBy } = require("./divisibleBy");
@@ -22,7 +22,7 @@ const { splitDate } = require("./splitDate");
 
 module.exports = {
   capitalizeFirstLetter,
-  combineArrayFilterUnique,
+  combineArraysFilterUnique,
   combineIDs,
   daysBetweenDates,
   divisibleBy,
