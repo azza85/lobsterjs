@@ -1,5 +1,5 @@
 import { capitalizeFirstLetter } from "../capitalizeFirstLetter";
 
-it("capitalizeFirstLetter", () => {
+it("capitalizeFirstLetter.", () => {
   expect(capitalizeFirstLetter("tom")).toBe("Tom");
 });
